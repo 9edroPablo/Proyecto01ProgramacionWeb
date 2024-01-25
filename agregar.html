@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Mi página de wiki</title>
+    <link rel="stylesheet" href="./SRC/CSS/agregar.css" />
+  </head>
+  <body class="container-form">
+    <div class="container-cool">
+
+    
+    
+
+    <div class="container-ul">
+      <h1>Agregar serie</h1>
+      <form action="agregar.php" method="post">
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" name="titulo" placeholder="Título" />
+        <label for="titulo">Sipnosis:</label>
+        <input
+          type="text"
+          id="sipnosis"
+          name="sipnosis"
+          placeholder="Sipnosis"
+        />
+        <label for="temporadas">Temporadas:</label>
+        <input
+          type="number"
+          id="temporadas"
+          name="temporadas"
+          placeholder="Temporadas"
+        />
+        <label for="episodios">Episodios:</label>
+        <input
+          type="number"
+          id="episodios"
+          name="episodios"
+          placeholder="Episodios"
+        />
+        <label for="imagen">Imagen:</label>
+        <input type="file" id="imagen" name="imagen" />
+        <button type="submit" class="buttoncolor">Agregar</button>
+      </form>
+    </div>
+  </div>
+  </body>
+</html>
